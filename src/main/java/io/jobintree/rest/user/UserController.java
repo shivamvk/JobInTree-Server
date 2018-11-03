@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.jobintree.rest.response.Response;
 
 @RestController
-public class Controller {
+public class UserController {
 
 	@Autowired
 	private UserService service;
