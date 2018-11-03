@@ -4,10 +4,11 @@ import org.springframework.data.annotation.Id;
 
 public class User {
 	
-	private String name;
-	private String email;
 	@Id
 	private String phone;
+	private String name;
+	private String email;
+
 	
 	public User(String name, String email, String phone) {
 		super();
